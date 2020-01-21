@@ -59,4 +59,4 @@ Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar u
 - Lembrando código de qualidade, você pode e deve fazer o que achar necessário para isso, mesmo que não esteja listado aqui. 
 - 
 
-Em caso de dúvidas, envie-nos um e-mail para rh@biologiatotal.com.br 
+Em caso de dúvidas, envie-nos um e-mail para contato@bhsoftwares.com.br 
