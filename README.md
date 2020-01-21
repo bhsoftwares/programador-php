@@ -47,16 +47,14 @@ Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar u
 - Cubra pelo menos 3 recursos de seu código com testes unitários.
 - Utilize as melhores práticas da Orientação a Objetos.
 - As tabelas do banco de dados criadas através de migrations.
-- Pretendemos conectar um aplicativo mobile nesta nova plataforma. 
+- Pretendemos conectar um aplicativo mobile nesta nova plataforma portanto cuidado com o responsivo. 
 
 
 # Observações:
 
-- Não tenha pressa! O que será avaliado é a qualidade do código não a velocidade de desenvolvimento. Portanto, qualquer generator / scaffolding de CRUD, MVC, etc, torna-se desnecessário. 
-- Se não for possível terminar todas as funcionalidades, não tem problema.
-- Seu código-fonte não precisa ser bonito ou ter um UX excelente. Você pode optar por templates para o frontend, se assim desejar.
-- Não precisa ser complexo, com varias lib’s e etc. O legal é usar o necessário para ter um código de qualidade e de fácil evolução. 
+- Atenção aos detalhes do front-end e back-end, serão avaliados.
+- Não precisa ser complexo, com varias lib’s e etc. 
+- O legal é usar o necessário para ter um código de qualidade e de fácil evolução. 
 - Lembrando código de qualidade, você pode e deve fazer o que achar necessário para isso, mesmo que não esteja listado aqui. 
-- 
 
 Em caso de dúvidas, envie-nos um e-mail para contato@bhsoftwares.com.br 
