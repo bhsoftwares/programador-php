@@ -1,6 +1,6 @@
 # Teste prático - Programador(a) PHP Pleno – Laravel
 
-[![N|Biologia Total](https://site.biologiatotal.com.br/wp-content/themes/biologia/assets/images/logo-colorido.png)](https://site.biologiatotal.com.br/)
+[![N|BH Softwares](https://objects-us-east-1.dream.io/bhsoftwares/uploads/img/logov2.png)](https://bhsoftwares.com.br/)
 
 **Desenvolver uma aplicação simples utilizando [Laravel 5](https://laravel.com/).**
 O objetivo desta avaliação é medir o nível de conhecimento do candidato nas áreas em que a vaga será exigida.
