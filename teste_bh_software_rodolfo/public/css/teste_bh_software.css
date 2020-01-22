@@ -1,0 +1,19 @@
+.input-error {
+	border-color: red;
+}
+
+.text-error {
+	color: #ce3d3d;
+    font-size: 12px;
+    display: none;	
+}
+
+.box-search {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.input-search {
+	width: 250px;
+}
