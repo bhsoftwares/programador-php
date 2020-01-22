@@ -16,7 +16,7 @@ php artisan migrate
 
 ### 4. Inicie localmente para use
 ```
-php artisan migrate
+php artisan serve
 ```
 
 
