@@ -1,4 +1,4 @@
-# Teste prático - Programador(a) PHP Pleno – Laravel
+# Teste prático - Programador(a) PHP – Laravel
 
 [![N|BH Softwares](https://objects-us-east-1.dream.io/bhsoftwares/uploads/img/logov2.png)](https://bhsoftwares.com.br/)
 
