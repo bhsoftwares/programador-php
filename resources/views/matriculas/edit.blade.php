@@ -18,7 +18,7 @@
             <div class="form-group col-md-6">
                 <label class="col-form-label" for="Cursos">Cursos</label>
                 <select class="form-control" name="cursos_id[]" id="optgroup" multiple="multiple">
-                    <optgroup label='Aluno'>
+                    <optgroup label="Cursos">
                     @foreach ($cursos as $curso)
                         <option value="{{$curso->id}}">{{$curso->titulo}}</option>
                     @endforeach

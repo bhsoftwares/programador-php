@@ -33,7 +33,7 @@
                     <i class="fa fa-2x fa-play-circle-o"></i><a href="{{route('cursos.index')}}">Cursos</a>
                 </li>
                 <li class="sidebar-li">
-                    <i class="fa fa-2x fa-code"></i><a href="{{route('alunos.index')}}">Alunos</a>
+                    <i class="fa fa-2x fa-user"></i><a href="{{route('alunos.index')}}">Alunos</a>
                 </li>
                 <li class="sidebar-li">
                     <i class="fa fa-2x fa-ticket"></i> <a href="{{route('matriculas.index')}}">Matrículas</a>

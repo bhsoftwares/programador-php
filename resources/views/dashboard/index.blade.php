@@ -12,7 +12,7 @@
                 <span>Cursos</span> 
             </a>
             <a class="dashboard__item" href="{{route('alunos.index')}}">
-                <i class="fa fa-2x fa-code"></i>
+                <i class="fa fa-2x fa-user"></i>
                 <span>Alunos</span>  
             </a>
             <a class="dashboard__item" href="{{route('matriculas.index')}}">
