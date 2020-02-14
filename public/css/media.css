@@ -1,0 +1,157 @@
+@media (min-width: 1500px) {
+    .info__cards{
+        width: 23%;
+        margin: 10px 6px;
+        border: 1px solid #19181a;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .info__cards{
+        width: 47.5%;
+        margin: 10px 6px;
+        border: 1px solid #19181a;
+    }
+
+    .cursos__show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .alunos__info{
+        width: 50%;
+        margin-top: 20px;
+    }
+  
+}
+
+@media (min-width: 528px) and (max-width: 767px) {
+  
+    #sidebar {
+        margin-left: -220px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    .info__cards{
+        width: 47.5%;
+        margin: 10px 6px;
+        border: 1px solid #19181a;
+    }
+
+    .cursos__show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .alunos__info{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .dashboard__div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .dashboard__item{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        padding: 40px 20px;
+        height: auto;
+        background-color: #19181a;
+        margin: 8px;
+        color: #fafafa;
+        border-radius: 5px;
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 528px) {
+
+    #sidebar {
+        margin-left: -220px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    .info__cards{
+        width: 90%;
+        margin: 10px 6px;
+    }
+
+    .cursos__show{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .info__show{
+        width: 80%;
+        text-align: center;
+        background-color: #19181a;
+        padding: 30px;
+    }
+
+    .alunos__info{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .alunos__busca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dashboard{
+        padding-top: 10px;
+    }
+
+    .dashboard__div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .dashboard__item{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        text-align: center;
+        padding: 40px 20px;
+        height: auto;
+        background-color: #19181a;
+        margin: 8px;
+        color: #fafafa;
+        border-radius: 5px;
+        font-size: 1.8rem;
+    }
+    
+
+
+}

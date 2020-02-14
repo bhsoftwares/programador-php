@@ -1,0 +1,255 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -220px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.breadcrumb-item{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: rgba(1, 1, 1, 1);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: rgba(34, 33, 37, 1);
+    text-align: center;
+}
+
+
+#sidebar .sidebar-header h1{
+    margin: 10px;
+    font-size: 1em;
+}
+
+#sidebar ul li{
+    padding-left: 20px;
+    transition: .5s;
+}
+
+#sidebar ul li.active{
+    background-color: #000;
+    
+}
+
+#sidebar ul li:hover{
+    background-color: #4c110f;
+}
+
+
+#sidebar ul li a {
+    padding: 13px 0px;
+    display: block;
+    transition: .5s;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    font-size: .9rem;
+}
+
+.sidebar-li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(1, 1, 1, .7);
+    border-left: 3px;
+}
+
+.sidebar-li:hover{
+    border-color: #4c110f;
+}
+
+.sidebar-li i {
+    width: 30%;
+}
+
+.sidebar-li a{
+    width: 70%;
+}
+
+.toogle-button{
+    background-color: #333035;
+    border-style: solid;
+    border-color: #333035;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.toogle-button:hover{
+    background-color: #801200;
+    border-color: #801200;
+}
+
+.fa-bars{
+    color: #fafafa;
+}
+
+.cursos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alunos__busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.alunos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 83vw;
+}
+
+.cursos__div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+}
+
+.cursos__show{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.info__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 31%;
+    margin: 10px 6px;
+    min-height: 300px;
+    border: 1px solid #19181a;
+}
+
+
+.info__card--header{
+    background-color: #19181a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.info__card--body{
+    min-height: auto;
+    padding: 15px 9px;
+    text-align: justify;
+}
+
+.info__card--footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: #19181a;
+    min-height: auto;
+    color: #fafafa;
+}
+
+.info__show{
+    width: calc(70% - 30px);
+    text-align: center;
+    background-color: #19181a;
+    padding: 30px;
+}
+
+.info__show--header{
+    color: #fafafa;
+}
+
+.info__show--body{
+    color: #fafafa;
+    font-size: 1.1rem;
+}
+
+.alunos__info{
+    width: calc(30% - 30px);
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+}
+
+
+.dashboard__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard__item{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    text-align: center;
+    padding: 40px 20px;
+    height: auto;
+    background-color: #19181a;
+    margin: 8px;
+    color: #fafafa;
+    border-radius: 5px;
+    font-size: 2.1rem;
+}
