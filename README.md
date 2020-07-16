@@ -9,14 +9,18 @@ O objetivo desta avaliação é medir o nível de conhecimento do candidato nas 
 Deve-se criar uma aplicação em PHP para resolver o problema descrito abaixo, utilizando framework Laravel 5. Fique a vontade para explorar todo o seu conhecimento em automação de tarefas, CSS e Javascript com JQuery, Vue.JS, Angular ou qualquer outra ferramenta.
 
 # Cenário fictício
-Prof. Jubilut está lançando uma nova plataforma de ensino online. Nesta plataforma, desejamos realizar a matrícula de alunos em cursos através de um painel administrativo. 
+Prof. Jubilut está lançando uma nova plataforma de ensino online. Nesta plataforma, desejamos realizar a matrícula de alunos em cursos através de um painel administrativo, bem como os dados cadastrais de cursos, alunos, disciplinas e professores de cada disciplina.
 
+O Aluno Emanuel poderá acessar sua area administrativa para atualizar seu cadastro.
+
+Prof. Jubilut poderá gerar um relatorio que mostrará qual a faixa média de idade em cada curso, bem como o aluno mais novo e o mais velho.
 
 # Requisitos
 - Um aluno pode ser matriculado em mais de um curso
-- O administrador do sistema que realizará as matrículas. Não é necessário desenvolver tela para alunos.
-- A consulta pelo nome e pelo e-mail é requisito funcional
-- Não é necessário desenvover tela de login / autenticação. 
+- 2 telas de autenticação: uma àrea administrativa para gestão e cadastros e outra para o aluno poder alterar seus dados cadastrais.
+- O administrador do sistema que realizará as matrículas.
+- A consulta pelo nome e pelo e-mail é requisito obrigatório como filtros na tela de listagem de alunos.
+
 
 #### CRUD de Áreas de Cursos
 Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma área de curso (Biologia, Química, Física, por exemplo). 
@@ -24,6 +28,24 @@ Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar u
 ##### Atributos de um Curso são:
 - título (obrigatório)
 - descrição 
+- Data de início
+- Data de fim
+
+#### CRUD de Professores
+Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma área de Professores. 
+
+##### Atributos de um Curso são:
+- nome (obrigatório)
+- email
+
+#### CRUD de Disciplinas
+Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma área de Disciplinas. 
+
+##### Atributos de um Curso são:
+- título (obrigatório)
+- descrição 
+- Curso ( Seleção )
+- Professor ( Seleção )
 
 #### CRUD de Alunos
 Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar um Aluno. 
@@ -34,7 +56,7 @@ Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar u
 - data de nascimento
 
 #### CRUD de Matrículas
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma matrícula. 
+Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma matrícula do aluno nos cursos. 
 
 # Instruções:
 
@@ -48,6 +70,7 @@ Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar u
 - Utilize as melhores práticas da Orientação a Objetos.
 - As tabelas do banco de dados criadas através de migrations.
 - Pretendemos conectar um aplicativo mobile nesta nova plataforma portanto cuidado com o responsivo. 
+- Caso queira mostrar ainda mais sua habilidade um gráfico seria diferencial (opcional).
 
 
 # Observações:
